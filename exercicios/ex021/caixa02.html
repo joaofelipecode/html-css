@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+        header {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: 1px 1px 1px black;
+        }
+        nav {
+            background-color: rgb(74, 147, 122);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: antiquewhite;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+        article {
+            background-color: rgb(167, 157, 144);
+        }
+        footer {
+            background-color: rgb(70, 67, 67);
+            color: antiquewhite;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, beatae. Ipsam vitae vero error doloremque aliquam quos provident illo delectus. Deleniti provident, eligendi necessitatibus dolorem ipsum libero sed aliquid placeat.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Joãozinho/BOM&NOVO</p>
+    </footer>
+</body>
+</html>
